@@ -11,4 +11,4 @@ Materials are sorted into the following directory structure:
 - **reference**: various reference materials to support lectures and homeworks.
 - **slides**: slide decks used for lectures, in Markdown format, designed to be converted to HTML5 using [Landslide](https://github.com/adamzap/landslide).
 
-For more information about the course, [please visit the course website](http://fonnesbeck.github.com/Bios6301).
+For more information about the course, [please visit the course website](https://couthcommander.github.io/Bios6301/).
