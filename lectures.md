@@ -12,7 +12,7 @@ title: Introduction to Statistical Computing
 **Office hours**
 
 * Cole: after class, or by appointment
-* Assistant Cole Harris: Friday 12-1 by appointment
+* Assistant Chiara Di Gravio: TBD by appointment
 
 This schedule is *tentative* and subject to change at any time.
 
