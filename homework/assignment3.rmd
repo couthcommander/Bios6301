@@ -7,7 +7,7 @@ output: html_document
 
 50 points total.
 
-Submit a single knitr file (named `homework3.rmd`) by email to coleman.r.harris@vanderbilt.edu.
+Submit a single knitr file (named `homework3.rmd`) by email to chiara.di.gravio@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
 Check your output by using the `Knit HTML` button in RStudio.
 
