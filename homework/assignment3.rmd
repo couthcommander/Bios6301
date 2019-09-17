@@ -42,7 +42,7 @@ your results.
 **14 points**
 
 Obtain a copy of the [football-values lecture](https://github.com/couthcommander/football-values).
-Save the `2018/proj_wr18.csv` file in your working directory.  Read
+Save the `2019/proj_wr18.csv` file in your working directory.  Read
 in the data set and remove the first two columns.
 
 1. Show the correlation matrix of this data set. (4 points)
