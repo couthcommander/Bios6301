@@ -50,7 +50,7 @@ git config --gloabl user.email "moe@moesbar.com"
 ### Create a new repo
 
 * You'll want a private repository for class
-* Add Cole^2 (couthcommander and ChiaraDG) as collaborators (see 4th assignment)
+* Add Cole and Chiara (couthcommander and ChiaraDG) as collaborators (see 4th assignment)
 
 ### Additional GitHub features
 
