@@ -1,5 +1,7 @@
 # Introduction to Git
 
+Happy Tuesday!
+
 ## Git VS GitHub
 
 * git provides version control, which creates a better workflow
