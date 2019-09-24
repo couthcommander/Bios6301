@@ -57,7 +57,7 @@ Notes
 The TEX/LATEX system
 ====================
 
-![LaTeX system](images/latex.png)
+![LaTeX system](../slides/images/latex.png)
 
 Presenter Notes
 ===============
@@ -221,7 +221,7 @@ Building the Document
 
     pdflatex binomial.tex
 
-![Built Document](images/binomial.png)
+![Built Document](../slides/images/binomial.png)
 
 Presenter Notes
 ===============
@@ -362,7 +362,7 @@ One can either embed equations within text:
     !latex
     The logit transformation is $\log(\frac{p}{1-p})$.
 
-`The logit transformation is `  \\(\log(\frac{p}{1-p})\\).
+`The logit transformation is `  $\log(\frac{p}{1-p})$.
 
 Or as standalone equations:
 
@@ -527,7 +527,7 @@ Reference:
 
 This is a two-step process: first the compiler stores the labels, then it replaces the `\ref` with the right number. So, multiple compilations are required to see the proper output.
 
-![reference](images/reference.png)
+![reference](../slides/images/reference.png)
 
 Presenter Notes
 ===============
@@ -538,7 +538,7 @@ Presenter Notes
 Tables
 ======
 
-![Sample table](images/table.png)
+![Sample table](../slides/images/table.png)
 
 Presenter Notes
 ===============
@@ -644,7 +644,7 @@ Exercise
 
 How would you code this table?
 
-![Table exercise](images/table_example.png)
+![Table exercise](../slides/images/table_example.png)
 
 Presenter Notes
 ===============
@@ -658,7 +658,7 @@ partial line, double line
 Exercise
 ========
 
-![Table exercise](images/table_example.png)
+![Table exercise](../slides/images/table_example.png)
 
     !latex
     \begin{tabular}{|r|l|} \hline
@@ -729,7 +729,7 @@ Images
         \label{fig:measurement}
     \end{figure}
 
-![sample figure](images/measurement.png)
+![sample figure](../slides/images/measurement.png)
 
 Presenter Notes
 ===============
@@ -761,7 +761,7 @@ Presenter Notes
 
 ---
 
-![layout](images/layout.png)
+![layout](../slides/images/layout.png)
 
 ---
 
@@ -774,7 +774,7 @@ LaTeX *class* files (`.cls`) define custom document classes.
 
 ### Example: Journal formatting
 
-![JIMD example](images/journal.png)
+![JIMD example](../slides/images/journal.png)
 
 Presenter Notes
 ===============
@@ -787,7 +787,7 @@ BibTeX
 
 Support for citations and bibliographies is provided by the *BibTeX* package.
 
-![Sample references](images/references.png)
+![Sample references](../slides/images/references.png)
 
 Presenter Notes
 ===============
@@ -950,7 +950,7 @@ Editors
 
 Most programming text editors will have a LaTeX mode.
 
-![LaTeX mode in SublimeText 2](images/sublime_latex.png)
+![LaTeX mode in SublimeText 2](../slides/images/sublime_latex.png)
 
 Presenter Notes
 ===============
@@ -972,19 +972,3 @@ Example: LaTeX from Word
 ========================
 
 In the `exercises` folder on github.com/Bios6301, there is a short Word (.docx) document. See if you can create the same document using LaTeX.
-
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["$$","$$"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
-<script type="text/javascript" src="../MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
