@@ -23,7 +23,7 @@ Install the `readxl` package and run the following
 fn <- 'icd10.xlsx'
 if(file.access(fn, mode = 4) == -1) {
     url <- "https://www.cdc.gov/nhsn/xls/icd10-pcs-pcm-nhsn-opc.xlsx"
-    download.file(url, destfile = fn)
+    download.file(url, destfile = fn, mode = 'wb')
 }
 dat <- readxl::read_excel(fn, sheet = 2)
 ```
