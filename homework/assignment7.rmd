@@ -53,7 +53,54 @@ Perform the following manipulations: (3 points each)
 
 **16 points**
 
-Import the `addr.txt` file from the GitHub repository.  This file contains a listing of names and addresses (thanks google).  Parse each line to create a data.frame with the following columns: lastname, firstname, streetno, streetname, city, state, zip.  Keep middle initials or abbreviated names in the firstname column.  Print out the entire data.frame.
+Install the `lexicon` package. Load the `sw_fry_1000` vector, which contains 1,000 common words.
+
+```{r}
+data('sw_fry_1000', package = 'lexicon')
+head(sw_fry_1000)
+```
+
+1. Remove all non-alphabetical characters and make all characters lowercase. Save the result as `a`.
+
+```{r}
+```
+
+Use vector `a` for the following questions. (2 points each)
+
+2. How many words contain the string "ar"?
+
+```{r}
+```
+
+3. Find a six-letter word that starts with "l" and ends with "r".
+
+```{r}
+```
+
+4. Return all words that start with "col" or end with "eck".
+
+```{r}
+```
+
+5. Find the number of words that contain 4 or more adjacent consonants. Assume "y" is always a consonant.
+
+```{r}
+```
+
+6. Return all words with a "q" that isn't followed by a "ui".
+
+```{r}
+```
+
+7. Find all words that contain a "k". Run the `table` command on the first character following the first "k" of each word.
+
+```{r}
+```
+
+8. Remove all vowels. How many character strings are found exactly once?
+
+```{r}
+```
 
 ### Question 3 ###
 
