@@ -153,3 +153,25 @@ Tired <- setRefClass("Tired",
                      })
 )
 t <- Tired$new(speech="We're talking about practice")
+
+# back to S3, attributes
+# we've seen attributes before in things like names/dim/class
+
+x <- 1:10
+attr(x, 'info') <- 'this is my vector'
+y <- structure(1:10, info = "This is a vector")
+x
+y
+all.equal(x, y)
+all.equal(x, y, check.attributes = FALSE)
+
+(f1 <- factor(letters))
+attributes(f1)
+levels(f1) <- rev(levels(f1))
+f1
+(f2 <- rev(factor(letters)))
+(f3 <- factor(letters, levels = rev(letters)))
+
+# create class `noNaDf` by creating function of same name
+# it takes one argument, a data.frame
+# any missing values should be replaced with the mean of its column
