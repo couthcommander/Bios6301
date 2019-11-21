@@ -77,7 +77,7 @@ pitDebuts[, .(meanouts = mean(IPouts)), by=debutAge][order(debutAge)]
 #https://s3.amazonaws.com/assets.datacamp.com/img/blog/data+table+cheat+sheet.pdf
 #https://rstudio-pubs-static.s3.amazonaws.com/52230_5ae0d25125b544caab32f75f0360e775.html
 
-# question 1 from hw 5
+# question 2 from hw 6
 
 url <- "https://github.com/fonnesbeck/Bios6301/raw/master/datasets/haart.csv"
 haart <- read.csv(url)
