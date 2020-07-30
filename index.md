@@ -25,7 +25,7 @@ permission of instructor.
 
 [Robert Greevy](robert.greevy@vanderbilt.edu), PhD, Associate Professor of Biostatistics
 
-TA: [Chiara Di Gravio](chiara.di.gravio@vanderbilt.edu), PhD Student, Biostatistics
+TA: [Sarah Lotspeich](sarah.c.lotspeich@vanderbilt.edu), PhD Student, Biostatistics
 
 # Lecture hall
 
