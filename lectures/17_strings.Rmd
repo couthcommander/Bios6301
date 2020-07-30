@@ -56,15 +56,16 @@ Use `strsplit`, etc to reorder the following format `LAST, FIRST, POSITION` to `
 
 ```{r}
 lineup <- c(
-"Springer, George, CF",
-"Bregman, Alex, 3B",
-"Altuve, Jose, 2B",
-"Correa, Carlos, SS",
-"Gurriel, Yuli, 1B",
-"McCann, Brian, C",
-"Gonzalez, Marwin, LF",
-"Reddick, Josh, RF",
-"Verlander, Justin, P"
+"Turner, Trea, SS",
+"Eaton, Adam, RF",
+"Rendon, Anthony, 3B",
+"Soto, Juan, LF",
+"Kendrick, Howie, DH",
+"Cabrera, Asdrubal, 2B",
+"Zimmerman, Ryan, 1B",
+"Suzuki, Kurt, C",
+"Robles, Victor, CF",
+"Scherzer, Max, P",
 )
 ```
 

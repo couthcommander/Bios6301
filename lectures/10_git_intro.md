@@ -52,7 +52,7 @@ git config --gloabl user.email "moe@moesbar.com"
 ### Create a new repo
 
 * You'll want a private repository for class
-* Add Cole and Chiara (couthcommander and ChiaraDG) as collaborators (see 4th assignment)
+* Add Cole and Sarah (couthcommander and sarahlotspeich) as collaborators (see 4th assignment)
 
 ### Additional GitHub features
 
@@ -69,7 +69,7 @@ git config --gloabl user.email "moe@moesbar.com"
 * pull requests
 * plenty more, found [here][git-lecture].
 
-[class-repo]: https://github.com/fonnesbeck/Bios6301
+[class-repo]: https://github.com/couthcommander/Bios6301
 [git-training]: https://github.com/fonnesbeck/git_training
 [github-pages]: https://github.com/nstrayer/RMarkdown_Sites_tutorial
-[git-lecture]: https://github.com/fonnesbeck/Bios6301/blob/master/slides/lecture7_git.md
+[git-lecture]: https://github.com/couthcommander/Bios6301/blob/master/lectures/10_git_intro.md
