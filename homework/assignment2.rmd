@@ -9,7 +9,7 @@ output: html_document
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework2.rmd`) by email to chiara.di.gravio@vanderbilt.edu.
+Submit a single knitr file (named `homework2.rmd`) by email to sarah.c.lotspeich@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
 Check your output by using the `Knit HTML` button in RStudio.
 
@@ -25,7 +25,7 @@ Check your output by using the `Knit HTML` button in RStudio.
 
     5. Report the contents of the 172nd row. (2)
 
-    6. Create a new column that is the incidence *rate* (per 100,000) for each row.(3)
+    6. Create a new column that is the incidence *rate* (per 100,000) for each row. The incidence rate is the `(number of cases)/(population at risk)`, which in this case means `(number of cases)/(population at risk) * 100,000`. (3)
 
     7. How many subgroups (rows) have a zero incidence rate? (2)
 

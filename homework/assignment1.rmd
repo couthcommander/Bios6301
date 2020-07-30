@@ -9,7 +9,7 @@ output: html_document
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework1.rmd`) by email to chiara.di.gravio@vanderbilt.edu.
+Submit a single knitr file (named `homework1.rmd`) by email to sarah.c.lotspeich@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
 Check your output by using the `Knit HTML` button in RStudio.
 
