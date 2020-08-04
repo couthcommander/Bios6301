@@ -3,7 +3,7 @@ title: 'Bios 6301: Assignment 3'
 output: html_document
 ---
 
-*Due Tuesday, 24 September, 1:00 PM*
+*Due Thursday, 24 September, 1:00 PM*
 
 50 points total.
 
@@ -44,7 +44,7 @@ your results.
 **14 points**
 
 Obtain a copy of the [football-values lecture](https://github.com/couthcommander/football-values).
-Save the `2019/proj_wr19.csv` file in your working directory.  Read
+Save the `2020/proj_wr20.csv` file in your working directory.  Read
 in the data set and remove the first two columns.
 
 1. Show the correlation matrix of this data set. (4 points)

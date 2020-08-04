@@ -3,7 +3,7 @@ title: 'Bios 6301: Assignment 6'
 output: pdf_document
 ---
 
-*Due Tuesday, 22 October, 1:00 PM*
+*Due Tuesday, 20 October, 1:00 PM*
 
 $5^{n=day}$ points taken off for each day late.
 
@@ -17,7 +17,7 @@ Failure to name file `homework6.rmd` or include author name may result in 5 poin
 
 **16 points**
 
-Obtain a copy of the [football-values lecture](https://github.com/couthcommander/football-values).  Save the five 2019 CSV files in your working directory.
+Obtain a copy of the [football-values lecture](https://github.com/couthcommander/football-values).  Save the five 2020 CSV files in your working directory.
 
 Modify the code to create a function.  This function will create dollar values given information (as arguments) about a league setup.  It will return a data.frame and write this data.frame to a CSV file.  The final data.frame should contain the columns 'PlayerName', 'pos', 'points', 'value' and be orderd by value descendingly.  Do not round dollar values.
 
