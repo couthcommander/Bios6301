@@ -92,7 +92,7 @@ Use vector `a` for the following questions. (2 points each)
 ```{r}
 ```
 
-7. Find all words that contain a "k". Run the `table` command on the first character following the first "k" of each word.
+7. Find all words that contain a "k" followed by another letter. Run the `table` command on the first character following the first "k" of each word.
 
 ```{r}
 ```

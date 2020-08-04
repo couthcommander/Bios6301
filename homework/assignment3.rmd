@@ -50,7 +50,7 @@ in the data set and remove the first two columns.
 1. Show the correlation matrix of this data set. (4 points)
 
 1. Generate a data set with 30 rows that has a similar correlation
-structure.  Repeat the procedure 10,000 times and return the mean
+structure.  Repeat the procedure 1,000 times and return the mean
 correlation matrix. (10 points)
 
 ### Question 3 ###
