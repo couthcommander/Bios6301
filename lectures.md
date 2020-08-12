@@ -12,7 +12,7 @@ title: Introduction to Statistical Computing
 **Office hours**
 
 * Cole: after class, or by appointment
-* Assistant Sarah Lotspeich: TBD
+* Assistant Sarah Lotspeich: Fridays from 1:00-2:00
 
 This schedule is *tentative* and subject to change at any time.
 
