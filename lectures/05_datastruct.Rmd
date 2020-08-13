@@ -143,6 +143,7 @@ dataset %*% solve(dataset, y)
 `mx` and `my` and 2x2
 
 ```{r}
+y <- rep(1:4, each=4)
 mx <- matrix(x, nrow=4)
 my <- matrix(y, nrow=4)
 mx * my
