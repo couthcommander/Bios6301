@@ -156,7 +156,7 @@ x_old <- x + 1e6
 tol <- 1e-9
 # Specify maximum number of iterations
 max_iter <- 100
-# Keep track of number of interations
+# Keep track of number of iterations
 iter <- 0
 # Loop
 while((abs(x-x_old) > tol) && (iter < max_iter)) {

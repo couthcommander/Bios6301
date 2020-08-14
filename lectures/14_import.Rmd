@@ -100,7 +100,7 @@ y <- read.csv(stdin(), header = FALSE)
 `file` can also be a URL
 
 ```{r}
-tryCatch(read.csv('https://raw.githubusercontent.com/couthcommander/football-values/master/2018/proj_qb18.csv',
+tryCatch(read.csv('https://raw.githubusercontent.com/couthcommander/football-values/master/2020/proj_qb20.csv',
                   row.names=1, strip.white=TRUE)["Drew Brees",], error=function(e) e)
 ```
 
@@ -110,7 +110,7 @@ It's a bit harder to read web pages, as HTML must be parsed.
 
 ```{r}
 tryCatch({
-url <- 'https://www.baseball-reference.com/leagues/MLB/2018-standard-batting.shtml'
+url <- 'https://www.baseball-reference.com/leagues/MLB/2020-standard-batting.shtml'
 zz <- scan(url, sep = '\n', what = '')
 
 library(XML)
