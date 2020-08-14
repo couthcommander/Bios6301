@@ -57,7 +57,6 @@ git config --gloabl user.email "moe@moesbar.com"
 ### Additional GitHub features
 
 * GitHub pages
-    * Nick wrote a [tutorial][github-pages]
 * Issues
 * Wiki
 
@@ -71,5 +70,4 @@ git config --gloabl user.email "moe@moesbar.com"
 
 [class-repo]: https://github.com/couthcommander/Bios6301
 [git-training]: https://github.com/fonnesbeck/git_training
-[github-pages]: https://github.com/nstrayer/RMarkdown_Sites_tutorial
-[git-lecture]: https://github.com/couthcommander/Bios6301/blob/master/lectures/10_git_intro.md
+[git-lecture]: https://github.com/couthcommander/Bios6301/blob/master/slides/lecture7_git.md
