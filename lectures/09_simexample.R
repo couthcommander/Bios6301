@@ -26,7 +26,7 @@
 # install.packages("MASS")
 library(MASS)
 
-o2=read.csv("oxygen.csv")
+o2=read.csv("../datasets/oxygen.csv")
 head(o2)
 
 ###### Summary Statistics
@@ -139,7 +139,7 @@ rho.o2 ; keep.3
 colMeans(keep.b.3) ; coef(mod.o2)
 
 ### The difference in methods 2 and 3 often shows up in the variances, 
-#       althought is hard to detect here.
+#       although is hard to detect here.
 
 confint(mod.o2)[2,]
 quantile(keep.b.2[,2],c(0.025,0.975))
@@ -155,7 +155,7 @@ abline(v=confint(mod.o2)[2,],lty=2,col="red")
 #       See what happens to the bootstrap distribution
 
 ### Side note: Sometimes you want to generate data with an exact correlation structure.
-#       You can do this useing the 'empirical=TRUE' option in MVN
+#       You can do this using the 'empirical=TRUE' option in MVN
 
 o2.sim = mvrnorm(20, mu = means.o2, Sigma = vcov.o2, empirical=TRUE)
 cor(o2.sim) ; rho.o2
