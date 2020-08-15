@@ -51,7 +51,7 @@ as.character(dt, format = "%m-%d-%y %H:%M")
 Write a function to calculate the time at which you turn a given number of seconds old, defaulting to a billion:
 
 ```{r}
-# bday_in_secs("1987-10-19 14:00:00")
+# bday_in_secs("1989-10-19 14:00:00")
 ```
 
 ## Complications
@@ -209,10 +209,10 @@ ymd(20120101) + years(1)
 ## Sequences and intervals
 
 ```{r}
-(meetings <- now() + weeks(0:5))
+(meetings <- now() + weeks(0:16))
 ```
 
 ```{r}
-holiday <- interval(ymd("2017/11/19"), ymd("2017/11/25"))
+holiday <- interval(ymd("2020/11/21"), ymd("2020/11/29"))
 meetings %within% holiday
 ```
