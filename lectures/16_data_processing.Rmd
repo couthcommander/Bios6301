@@ -45,6 +45,8 @@ The `factor` type represents variables that are categorical, or nominal.
 For example, let's look at the `init.reg` variable in the HAART dataset, which shows the initial drug regimen for each patient:
 
 ```{r}
+# in R version 4, this is no longer a factor by default
+haart[,'init.reg'] <- as.factor(haart[,'init.reg'])
 str(haart[,'init.reg'])
 ```
 
@@ -175,7 +177,7 @@ In order to save a list variable into a data.frame, use must assign with `$<-` o
 
 ```{r}
 init.reg <- as.character(haart[,'init.reg'])
-(haart[['init.reg_list2']] <- strsplit(init.reg, ","))[1:3]
+(haart[['init.reg_list']] <- strsplit(init.reg, ","))[1:3]
 ```
 
 ## The `apply` Functions
