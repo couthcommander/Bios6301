@@ -316,3 +316,21 @@ merge(df1, df2, all=TRUE)
 merge(df1, df2, all.x=TRUE)
 merge(df1, df2, all.y=TRUE)
 ```
+
+## Sampling Data
+
+Create a sample from a data frame by selecting from row numbers.
+
+```{r}
+haart[sample(nrow(haart), 10),]
+```
+
+Let's modify the HAART data set to contain an ID and repeated measures.
+
+```{r}
+newdat <- cbind(id = sample(100, nrow(haart), replace = TRUE), haart[,c('weight','last.visit')])
+```
+
+## Exercise
+
+How could we sample by ID?
