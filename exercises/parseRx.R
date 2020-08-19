@@ -5,7 +5,7 @@ trim <- function(x) gsub('^\\s+|\\s+$', '', x)
 # require dataframe with rx column
 parseDrugs <- function(x) {
   x <- data.frame(rx=x)
-  newVars <- c('tech','brand','dosage','paran','with','injection','infusion','oral','suppository','nasal')
+  newVars <- c('tech','brand','dosage','paren','with','injection','infusion','oral','suppository','nasal')
   x[,newVars] <- ''
   x$tech <- toupper(sub("[:].*$", '', x$rx))
 
@@ -26,7 +26,7 @@ parseDrugs <- function(x) {
   x$brand <- toupper(trim(sub("^[^:]*[:]*(.*)$", '\\1', x$rx)))
 
   # parenthetical notes
-  x$paran <- trim(sub('^[^(]*[(]*([^)]*)[)]*$', '\\1', x$tech))
+  x$paren <- trim(sub('^[^(]*[(]*([^)]*)[)]*$', '\\1', x$tech))
   x$tech <- sub('[ ]*[(].*$', '', x$tech)
 
   # dose info
