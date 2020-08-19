@@ -25,7 +25,7 @@ parseDrugs <- function(x) {
   # brand name follows colon
   x$brand <- toupper(trim(sub("^[^:]*[:]*(.*)$", '\\1', x$rx)))
 
-  # paranthetical notes
+  # parenthetical notes
   x$paran <- trim(sub('^[^(]*[(]*([^)]*)[)]*$', '\\1', x$tech))
   x$tech <- sub('[ ]*[(].*$', '', x$tech)
 
@@ -65,4 +65,7 @@ parseDrugs <- function(x) {
   x
 }
 
+length(rx); length(unique(rx))
+# look at a few of the longest strings
+rx[order(nchar(rx), decreasing = TRUE)][seq(12)]
 x <- parseDrugs(rx)
