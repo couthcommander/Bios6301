@@ -5,6 +5,20 @@ output: html_notebook
 
 Simulation useful to empirically (observed/experienced) calculate something
 
+# Generating random data
+
+Two major functions:
+
+* sample
+* r[dist], where [dist] is one of the distributions found in `help(Distributions)`; good examples are `rnorm` or `rbinom`
+
+```{r}
+replicate(10, sample(3))
+replicate(10, sample(3, replace = TRUE))
+```
+
+# A power & sample size simulation
+
 `p-value` for a single t-test.
 
 ```{r}
