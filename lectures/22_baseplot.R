@@ -1,6 +1,7 @@
 # base graphics are constructed with a series of steps
 
 vlbw <- read.csv('https://github.com/couthcommander/Bios6301/raw/master/datasets/vlbw.csv', row.names=1)
+vlbw[,'race'] <- as.factor(vlbw[,'race'])
 vlbw <- vlbw[complete.cases(vlbw[,c('gest','bwt','sex','race')]),]
 
 plot(vlbw$gest, vlbw$bwt)
@@ -40,6 +41,7 @@ box()
 par(mfrow=c(1,2))
 plot(vlbw$gest, vlbw$bwt)
 plot(vlbw$apg1, vlbw$bwt)
+par(mfrow=c(1,1))
 
 plot(sin, xlim=c(-10,10), ylim=c(-3,3), xaxs='i', yaxs='i')
 lines(c(-10,10), c(0,0), lty=2)
