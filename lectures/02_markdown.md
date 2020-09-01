@@ -277,22 +277,6 @@ in this second paragraph.
 List items can be placed inside of other list 
 items by adding at least one space before a nested list item (more spaces make it look pretty as plain text).
 
-    * Things that don't hurt people
-        + Ponies
-        + Bayes formula
-        + Candy
-    * Things that might hurt people
-        + Swordfish
-        + p-values
-        + Candy from strangers
-
----
-
-## Nested Lists ##
-
-List items can be placed inside of other list 
-items by adding at least one space before a nested list item (more spaces make it look pretty as plain text).
-
 * Things that don't hurt people
     + Ponies
     + Bayes formula
@@ -301,6 +285,7 @@ items by adding at least one space before a nested list item (more spaces make i
     + Swordfish
     + p-values
     + Candy from strangers
+
 ---
 
 # Code #
