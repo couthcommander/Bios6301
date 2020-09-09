@@ -49,7 +49,7 @@ parseDrugs <- function(x) {
   x$suppository <- grepl("SUPPOSITORY", x$tech)
   x$tech[x$suppository] <- sub('[ ]SUPPOSITORY.*$', '', x$tech[x$suppository])
 
-  # naval meds
+  # nasal meds
   x$nasal <- grepl("NASAL", x$tech)
   x$tech[x$nasal] <- sub('[ ]NASAL.*$', '', x$tech[x$nasal])
 
