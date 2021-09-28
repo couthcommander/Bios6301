@@ -31,7 +31,7 @@ Happy Tuesday!
 
 ```
 git config --global user.name "Moe Szyslak"
-git config --gloabl user.email "moe@moesbar.com"
+git config --global user.email "moe@moesbar.com"
 ```
 
 ### The next three commands you should know, with GitHub
@@ -52,7 +52,7 @@ git config --gloabl user.email "moe@moesbar.com"
 ### Create a new repo
 
 * You'll want a private repository for class
-* Add Cole and Sarah (couthcommander and sarahlotspeich) as collaborators (see 4th assignment)
+* Add Cole and Michael (couthcommander and michaelleewilliams) as collaborators (see 4th assignment)
 
 ### Additional GitHub features
 
