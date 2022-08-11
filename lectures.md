@@ -12,7 +12,7 @@ title: Introduction to Statistical Computing
 **Office hours**
 
 * Cole: after class, or by appointment
-* Assistant Michael Williams: TBD
+* Assistant Tianyi Sun: TBD
 
 This schedule is *tentative* and subject to change at any time.
 
