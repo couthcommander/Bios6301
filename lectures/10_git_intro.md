@@ -52,7 +52,7 @@ git config --global user.email "moe@moesbar.com"
 ### Create a new repo
 
 * You'll want a private repository for class
-* Add Cole and Michael (couthcommander and michaelleewilliams) as collaborators (see 4th assignment)
+* Add Cole and Tianyi (couthcommander and tinasunny2018) as collaborators (see 4th assignment)
 
 ### Additional GitHub features
 
