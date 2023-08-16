@@ -12,7 +12,7 @@ title: Introduction to Statistical Computing
 **Office hours**
 
 * Cole: after class, or by appointment
-* Assistant Tianyi Sun: Fri 9-10am (over zoom)
+* Assistant Marisa Blackman: TBD
 
 This schedule is *tentative* and subject to change at any time.
 
