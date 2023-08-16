@@ -25,12 +25,12 @@ permission of instructor.
 
 [Robert Greevy](robert.greevy@vanderbilt.edu), PhD, Associate Professor of Biostatistics
 
-TA: [Tianyi Sun](tianyi.sun@vanderbilt.edu), PhD Student, Biostatistics
+TA: [Marisa Blackman](marisa.h.blackman@vanderbilt.edu), PhD Student, Biostatistics
 
 # Lecture hall
 
 Room 11105, 11th floor, 2525 West End Avenue
 
-# Slack
+# Zulip
 
-All class communication will take place using [Slack](https://slack.com), a messaging system that replaces email. Students should join the [Bios 6301 Slack channel](https://biostat6301.slack.com).
+All class communication will take place using [Zulip](https://zulip.com/). Students will be invited to join the private #bios6301-2023 stream.
