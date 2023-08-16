@@ -78,7 +78,7 @@ Sweave provides a way of interfacing R code with LaTeX documents.
 Presenter Notes
 ===============
 
-Around 10 years old.
+Around 20 years old.
 
 ---
 

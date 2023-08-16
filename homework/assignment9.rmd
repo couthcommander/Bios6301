@@ -3,7 +3,7 @@ title: 'Bios 6301: Assignment 9'
 output: pdf_document
 ---
 
-*Due Tuesday, 29 November, 1:00 PM*
+*Due Tuesday, 28 November, 1:00 PM*
 
 $5^{n=day}$ points taken off for each day late.
 

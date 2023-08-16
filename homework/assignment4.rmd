@@ -3,7 +3,7 @@ title: 'Bios 6301: Assignment 4'
 output: pdf_document
 ---
 
-*Due Tuesday, 04 October, 1:00 PM*
+*Due Tuesday, 03 October, 1:00 PM*
 
 $5^{n=day}$ points taken off for each day late.
 
@@ -22,7 +22,7 @@ Failure to properly name files or include author name may result in 5 points tak
 
 **10 points**
 
-1. Use GitHub to turn in the first four homework assignments. Make sure the teacher (couthcommander) and TA (tinasunny2018) are collaborators. (5 points)
+1. Use GitHub to turn in the first four homework assignments. Make sure the teacher (couthcommander) and TA (mhblackman) are collaborators. (5 points)
 
 1. Commit each assignment individually.  This means your repository should have at least four commits. (5 points)
 

@@ -3,13 +3,13 @@ title: 'Bios 6301: Assignment 1'
 output: html_document
 ---
 
-*Due Thursday, 08 September, 1:00 PM*
+*Due Thursday, 07 September, 1:00 PM*
 
 50 points total.
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework1.rmd`) by email to tianyi.sun@vanderbilt.edu.
+Submit a single knitr file (named `homework1.rmd`) by email to marisa.h.blackman@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
 Check your output by using the `Knit HTML` button in RStudio.
 

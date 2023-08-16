@@ -292,9 +292,8 @@ items by adding at least one space before a nested list item (more spaces make i
 
 There are two ways to include code snippets in Markdown:
 
-1. **As inline code**
+1. As inline code
 2. As a code block
-
 
 ## Inline code ##
 
@@ -309,13 +308,6 @@ Including the `dependencies=TRUE` flag also installs any other packages
 that the target package requires to run on your machine.
 
 ---
-
-# Code #
-
-There are two ways to include code snippets in Markdown:
-
-1. As inline code
-2. **As a code block**
 
 ## Code Block ##
 
@@ -335,16 +327,16 @@ a code block, simply indent the code by at least 4 spaces, or one tab.
 # Links #
 There are two types of links in Markdown:
 
-1. **Inline links**
-2. Reference links.
+1. Inline links
+2. Reference links
 
 ## Inline Links ##
 Markdown inline links are equivalent to HTML `<a href='foo.com'>` 
 links, they just have a different syntax. 
 
-    [Biostatistics home page](http://biostat.mc.vanderbilt.edu "Visit Biostat!")
+    [Biostatistics home page](https://www.vumc.org/biostatistics/ "Visit Biostat!")
 
-[Biostatistics home page](http://biostat.mc.vanderbilt.edu "Visit Biostat!")
+[Biostatistics home page](https://www.vumc.org/biostatistics/ "Visit Biostat!")
 
 Presenter Notes
 ===============
@@ -354,12 +346,6 @@ Presenter Notes
 3. **Title** - The text that will appear when the user hovers over the link (optional)
 
 ---
-
-# Links #
-There are two types of links in Markdown:
-
-1. Inline links
-2. **Reference links**
 
 ## Reference Links ##
 
