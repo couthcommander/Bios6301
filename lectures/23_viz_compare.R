@@ -1,7 +1,7 @@
 library(ggplot2)
 library(plotly)
 
-vlbw <- read.csv('https://github.com/couthcommander/Bios6301/raw/master/datasets/vlbw.csv', row.names=1)
+vlbw <- read.csv('https://github.com/couthcommander/Bios6301/raw/main/datasets/vlbw.csv', row.names=1)
 vlbw <- vlbw[complete.cases(vlbw[,c('sex','dead','gest','bwt')]),]
 
 grps <- split(vlbw[,c('gest','bwt')], vlbw[,c('sex','dead')])

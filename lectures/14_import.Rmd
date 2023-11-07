@@ -100,7 +100,7 @@ y <- read.csv(stdin(), header = FALSE)
 `file` can also be a URL
 
 ```{r}
-tryCatch(read.csv('https://raw.githubusercontent.com/couthcommander/football-values/master/2020/proj_qb20.csv',
+tryCatch(read.csv('https://raw.githubusercontent.com/couthcommander/football-values/main/2020/proj_qb20.csv',
                   row.names=1, strip.white=TRUE)["Drew Brees",], error=function(e) e)
 ```
 

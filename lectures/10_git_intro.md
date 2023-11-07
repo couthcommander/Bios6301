@@ -70,4 +70,4 @@ git config --global user.email "moe@moesbar.com"
 
 [class-repo]: https://github.com/couthcommander/Bios6301
 [git-training]: https://github.com/fonnesbeck/git_training
-[git-lecture]: https://github.com/couthcommander/Bios6301/blob/master/slides/lecture7_git.md
+[git-lecture]: https://github.com/couthcommander/Bios6301/blob/main/slides/lecture7_git.md

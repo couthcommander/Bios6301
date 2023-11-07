@@ -1,6 +1,6 @@
 # base graphics are constructed with a series of steps
 
-vlbw <- read.csv('https://github.com/couthcommander/Bios6301/raw/master/datasets/vlbw.csv', row.names=1)
+vlbw <- read.csv('https://github.com/couthcommander/Bios6301/raw/main/datasets/vlbw.csv', row.names=1)
 vlbw[,'race'] <- as.factor(vlbw[,'race'])
 vlbw <- vlbw[complete.cases(vlbw[,c('gest','bwt','sex','race')]),]
 
