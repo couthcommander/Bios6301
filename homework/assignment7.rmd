@@ -109,7 +109,7 @@ Use vector `a` for the following questions. (2 points each)
 The first argument to most functions that fit linear models are formulas.  The following example defines the response variable `death` and allows the model to incorporate all other variables as terms. `.` is used to mean all columns not otherwise in the formula.
 
 ```{r}
-url <- "https://github.com/couthcommander/Bios6301/raw/master/datasets/haart.csv"
+url <- "https://github.com/couthcommander/Bios6301/raw/main/datasets/haart.csv"
 haart_df <- read.csv(url)[,c('death','weight','hemoglobin','cd4baseline')]
 coef(summary(glm(death ~ ., data=haart_df, family=binomial(logit))))
 ```
