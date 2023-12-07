@@ -882,7 +882,7 @@ For *.pdf* output:
 
     pdflatex example.tex
 
-If all goes well, you should see some very verbose output that terminates with ingformation about what has been written to disk:
+If all goes well, you should see some very verbose output that terminates with information about what has been written to disk:
 
     Output written on example.pdf (16 pages, 303102 bytes).
     Transcript written on example.log.
