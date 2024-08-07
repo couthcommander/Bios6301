@@ -14,5 +14,5 @@ open-source software.
 -   Statistical analysis tools: [R](http://cran.r-project.org)
 -   Version control system: [Git](http://git-scm.com/)
 -   Relational database: [SQLite](http://sqlite.org)
--   Document preparation tools: [LaTeX](http://www.latex-project.org/), [knitr](http://yihui.name/knitr/)
+-   Document preparation tools: [quarto](https://quarto.org/), [LaTeX](http://www.latex-project.org/), [knitr](http://yihui.name/knitr/)
 -   Programming text editor: [RStudio](https://posit.co/download/rstudio-desktop/)
