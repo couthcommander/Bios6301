@@ -21,11 +21,11 @@ permission of instructor.
 
 # Instructors
 
-[Cole Beck](cole.beck@vumc.org), BSc, Principal Application Developer
+[Cole Beck](mailto:cole.beck@vumc.org), BSc, Principal Application Developer
 
-[Robert Greevy](robert.greevy@vanderbilt.edu), PhD, Associate Professor of Biostatistics
+[Robert Greevy](mailto:robert.greevy@vanderbilt.edu), PhD, Associate Professor of Biostatistics
 
-TA: [Eric Chen](huiding.chen@vanderbilt.edu), PhD Student, Biostatistics
+TA: [Eric Chen](mailto:huiding.chen@vanderbilt.edu), PhD Student, Biostatistics
 
 # Lecture hall
 
