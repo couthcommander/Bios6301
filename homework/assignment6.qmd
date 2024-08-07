@@ -1,6 +1,6 @@
 ---
 title: 'Bios 6301: Assignment 6'
-output: pdf_document
+format: pdf
 ---
 
 *Due Tuesday, 22 October, 1:00 PM*
@@ -9,9 +9,9 @@ $5^{n=day}$ points taken off for each day late.
 
 40 points total.
 
-Submit a single knitr file (named `homework6.rmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
+Submit a single quarto file (named `homework6.qmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
 
-Failure to name file `homework6.rmd` or include author name may result in 5 points taken off.
+Failure to name file `homework6.qmd` or include author name may result in 5 points taken off.
 
 ### Question 1 ###
 
@@ -25,7 +25,8 @@ Note that the returned data.frame should have `sum(posReq)*nTeams` rows.
 
 Define the function as such (10 points):
 
-```{r eval=FALSE}
+```{r}
+#| eval: false
 # path: directory path to input files
 # file: name of the output file; it should be written to path
 # nTeams: number of teams in league
@@ -42,21 +43,22 @@ ffvalues <- function(path, file='outfile.csv', nTeams=12, cap=200, posReq=c(qb=1
 }
 ```
 
-1. Call `x1 <- ffvalues('.')`
+1.  Call `x1 <- ffvalues('.')`
 
     1.  How many players are worth more than $20? (1 point)
     
     1.  Who is 15th most valuable running back (rb)? (1 point)
 
-1. Call `x2 <- ffvalues(getwd(), '16team.csv', nTeams=16, cap=150)`
+1.  Call `x2 <- ffvalues(getwd(), '16team.csv', nTeams=16, cap=150)`
 
     1.  How many players are worth more than $20? (1 point)
     
     1.  How many wide receivers (wr) are in the top 40? (1 point)
 
-1. Call:
+1.  Call:
 
-    ```{r eval=FALSE}
+    ```{r}
+    #| eval: false
     x3 <- ffvalues('.', 'qbheavy.csv', posReq=c(qb=2, rb=2, wr=3, te=1, k=0),
             points=c(fg=0, xpt=0, pass_yds=1/25, pass_tds=6, pass_ints=-2,
                     rush_yds=1/10, rush_tds=6, fumbles=-2, rec_yds=1/20, rec_tds=6))
@@ -72,9 +74,9 @@ ffvalues <- function(path, file='outfile.csv', nTeams=12, cap=200, posReq=c(qb=1
 
 Import the HAART dataset (`haart.csv`) from the GitHub repository into R, and perform the following manipulations: (4 points each)
 
-1. Convert date columns into a usable (for analysis) format.  Use the `table` command to display the counts of the year from `init.date`.
-2. Create an indicator variable (one which takes the values 0 or 1 only) to represent death within 1 year of the initial visit.  How many observations died in year 1?
-3. Use the `init.date`, `last.visit` and `death.date` columns to calculate a followup time (in days), which is the difference between the first and either the last visit or a death event (whichever comes first). If these times are longer than 1 year, censor them (this means if the value is above 365, set followup to 365).  Print the quantile for this new variable.
-4. Create another indicator variable representing loss to followup; this means the observation is not known to be dead but does not have any followup visits after the first year.  How many records are lost-to-followup?
-5. Recall our work in class, which separated the `init.reg` field into a set of indicator variables, one for each unique drug. Create these fields and append them to the database as new columns.  Which drug regimen are found over 100 times?
-6. The dataset `haart2.csv` contains a few additional observations for the same study. Import these and append them to your master dataset (if you were smart about how you coded the previous steps, cleaning the additional observations should be easy!).  Show the first five records and the last five records of the complete (and clean) data set.
+1.  Convert date columns into a usable (for analysis) format.  Use the `table` command to display the counts of the year from `init.date`.
+2.  Create an indicator variable (one which takes the values 0 or 1 only) to represent death within 1 year of the initial visit.  How many observations died in year 1?
+3.  Use the `init.date`, `last.visit` and `death.date` columns to calculate a followup time (in days), which is the difference between the first and either the last visit or a death event (whichever comes first). If these times are longer than 1 year, censor them (this means if the value is above 365, set followup to 365).  Print the quantile for this new variable.
+4.  Create another indicator variable representing loss to followup; this means the observation is not known to be dead but does not have any followup visits after the first year.  How many records are lost-to-followup?
+5.  Recall our work in class, which separated the `init.reg` field into a set of indicator variables, one for each unique drug. Create these fields and append them to the database as new columns.  Which drug regimen are found over 100 times?
+6.  The dataset `haart2.csv` contains a few additional observations for the same study. Import these and append them to your master dataset (if you were smart about how you coded the previous steps, cleaning the additional observations should be easy!).  Show the first five records and the last five records of the complete (and clean) data set.

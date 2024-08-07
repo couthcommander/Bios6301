@@ -1,6 +1,8 @@
 ---
 title: 'Bios 6301: Assignment 3'
-output: html_document
+format:
+  html:
+    embed-resources: true
 ---
 
 *Due Tuesday, 24 September, 1:00 PM*
@@ -9,9 +11,9 @@ output: html_document
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework3.rmd`) by email to huiding.chen@vanderbilt.edu.
+Submit a single quarto file (named `homework3.qmd`) by email to huiding.chen@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
-Check your output by using the `Knit HTML` button in RStudio.
+Check your output by using the `Render` button in RStudio.
 
 $5^{n=day}$ points taken off for each day late.
 

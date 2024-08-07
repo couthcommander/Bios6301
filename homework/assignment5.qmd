@@ -1,6 +1,6 @@
 ---
 title: 'Bios 6301: Assignment 5'
-output: pdf_document
+format: pdf
 ---
 
 *Due Thursday, 10 October, 1:00 PM*
@@ -9,9 +9,9 @@ $5^{n=day}$ points taken off for each day late.
 
 40 points total.
 
-Submit a single knitr file (named `homework5.rmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
+Submit a single quarto file (named `homework5.qmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
 
-Failure to name file `homework5.rmd` or include author name may result in 5 points taken off.
+Failure to name file `homework5.qmd` or include author name may result in 5 points taken off.
 
 ### Question 1 ###
 
@@ -43,9 +43,9 @@ Write a program to simulate a game of craps. You can use the following snippet o
     x <- sum(ceiling(6*runif(2)))
 ```
 
-1. The instructor should be able to easily import and run your program (function), and obtain output that clearly shows how the game progressed.  Set the RNG seed with `set.seed(100)` and show the output of three games. (lucky 13 points)
+1.  The instructor should be able to easily import and run your program (function), and obtain output that clearly shows how the game progressed.  Set the RNG seed with `set.seed(100)` and show the output of three games. (lucky 13 points)
 
-1. Find a seed that will win ten straight games.  Consider adding an argument to your function that disables output. Show the output of the ten games. (7 points)
+1.  Find a seed that will win ten straight games.  Consider adding an argument to your function that disables output. Show the output of the ten games. (7 points)
 
 ### Question 3 ###
 
@@ -53,15 +53,16 @@ Write a program to simulate a game of craps. You can use the following snippet o
 
 This code makes a list of all functions in the base package:
 
-```{r eval=FALSE}
+```{r}
+#| eval: false
 objs <- mget(ls("package:base"), inherits = TRUE)
 funs <- Filter(is.function, objs)
 ```
 
 Using this list, write code to answer these questions.
 
-1. Which function has the most arguments? (3 points)
+1.  Which function has the most arguments? (3 points)
 
-1. How many functions have no arguments? (2 points)
+1.  How many functions have no arguments? (2 points)
 
 Hint: find a function that returns the arguments for a given function.

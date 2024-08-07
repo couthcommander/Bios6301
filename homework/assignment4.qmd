@@ -1,6 +1,6 @@
 ---
 title: 'Bios 6301: Assignment 4'
-output: pdf_document
+format: pdf
 ---
 
 *Due Tuesday, 01 October, 1:00 PM*
@@ -10,7 +10,7 @@ $5^{n=day}$ points taken off for each day late.
 20 points total.
 
 This assigment includes turning in the first three assignments. All three should
-include knitr files (named `homework1.rmd`, `homework2.rmd`, `homework3.rmd`, `homework4.rmd`)
+include quarto files (named `homework1.qmd`, `homework2.qmd`, `homework3.qmd`, `homework4.qmd`)
 along with valid PDF output files. Inside each file, clearly indicate which
 parts of your responses go with which problems (you may use the original homework
 document as a template). Add your name as `author` to the file's metadata section.

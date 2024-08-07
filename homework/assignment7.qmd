@@ -1,6 +1,6 @@
 ---
 title: 'Bios 6301: Assignment 7'
-output: pdf_document
+format: pdf
 ---
 
 *Due Thursday, 31 October, 1:00 PM*
@@ -9,9 +9,9 @@ $5^{n=day}$ points taken off for each day late.
 
 40 points total.
 
-Submit a single knitr file (named `homework7.rmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
+Submit a single quarto file (named `homework7.qmd`), along with a valid PDF output file. Inside the file, clearly indicate which parts of your responses go with which problems (you may use the original homework document as a template). Add your name as `author` to the file's metadata section. Raw R code/output or word processor files are not acceptable.
 
-Failure to name file `homework7.rmd` or include author name may result in 5 points taken off.
+Failure to name file `homework7.qmd` or include author name may result in 5 points taken off.
 
 ### Question 1 ###
 
@@ -41,13 +41,13 @@ x <- genData(500)
 
 Perform the following manipulations: (3 points each)
 
-1. Order the data set by `id` and `dt`.
-2. For each `id`, determine if there is more than a one year gap in between observations.  Add a new row at the one year mark, with the `a1c` value set to missing.  A two year gap would require two new rows, and so forth.
-3. Create a new column `visit`.  For each `id`, add the visit number.  This should be 1 to `n` where `n` is the number of observations for an individual.  This should include the observations created with missing a1c values.
-4. For each `id`, replace missing values with the mean `a1c` value for that individual.
-5. Print mean `a1c` for each `id`.
-6. Print total number of visits for each `id`.
-7. Print the observations for `id = 15`.
+1.  Order the data set by `id` and `dt`.
+2.  For each `id`, determine if there is more than a one year gap in between observations.  Add a new row at the one year mark, with the `a1c` value set to missing.  A two year gap would require two new rows, and so forth.
+3.  Create a new column `visit`.  For each `id`, add the visit number.  This should be 1 to `n` where `n` is the number of observations for an individual.  This should include the observations created with missing a1c values.
+4.  For each `id`, replace missing values with the mean `a1c` value for that individual.
+5.  Print mean `a1c` for each `id`.
+6.  Print total number of visits for each `id`.
+7.  Print the observations for `id = 15`.
 
 ### Question 2 ###
 
@@ -60,44 +60,44 @@ data('sw_fry_1000', package = 'lexicon')
 head(sw_fry_1000)
 ```
 
-1. Remove all non-alphabetical characters and make all characters lowercase. Save the result as `a`.
+1.  Remove all non-alphabetical characters and make all characters lowercase. Save the result as `a`.
 
 ```{r}
 ```
 
 Use vector `a` for the following questions. (2 points each)
 
-2. How many words contain the string "ar"?
+2.  How many words contain the string "ar"?
 
 ```{r}
 ```
 
-3. Find a six-letter word that starts with "l" and ends with "r".
+3.  Find a six-letter word that starts with "l" and ends with "r".
 
 ```{r}
 ```
 
-4. Return all words that start with "col" or end with "eck".
+4.  Return all words that start with "col" or end with "eck".
 
 ```{r}
 ```
 
-5. Find the number of words that contain 4 or more adjacent consonants. Assume "y" is always a consonant.
+5.  Find the number of words that contain 4 or more adjacent consonants. Assume "y" is always a consonant.
 
 ```{r}
 ```
 
-6. Return all words with a "q" that isn't followed by a "ui".
+6.  Return all words with a "q" that isn't followed by a "ui".
 
 ```{r}
 ```
 
-7. Find all words that contain a "k" followed by another letter. Run the `table` command on the first character following the first "k" of each word.
+7.  Find all words that contain a "k" followed by another letter. Run the `table` command on the first character following the first "k" of each word.
 
 ```{r}
 ```
 
-8. Remove all vowels. How many character strings are found exactly once?
+8.  Remove all vowels. How many character strings are found exactly once?
 
 ```{r}
 ```
@@ -123,7 +123,7 @@ myfun <- function(dat, response) {
 }
 ```
 
-Unfortunately, it doesn't work. `tryCatch` is "catching" the error so that this file can be knit to PDF.
+Unfortunately, it doesn't work. `tryCatch` is "catching" the error so that this file can render to PDF.
 
 ```{r}
 tryCatch(myfun(haart_df, death), error = function(e) e)

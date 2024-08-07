@@ -1,6 +1,8 @@
 ---
 title: 'Bios 6301: Assignment 2'
-output: html_document
+format:
+  html:
+    embed-resources: true
 ---
 
 *Due Tuesday, 17 September, 1:00 PM*
@@ -9,9 +11,9 @@ output: html_document
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework2.rmd`) by email to huiding.chen@vanderbilt.edu.
+Submit a single quarto file (named `homework2.qmd`) by email to huiding.chen@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
-Check your output by using the `Knit HTML` button in RStudio.
+Check your output by using the `Render` button in RStudio.
 
 1. **Working with data** In the `datasets` folder on the course GitHub repo, you will find a file called `cancer.csv`, which is a dataset in comma-separated values (csv) format. This is a large cancer incidence dataset that summarizes the incidence of different cancers for various subgroups. (18 points)
 
