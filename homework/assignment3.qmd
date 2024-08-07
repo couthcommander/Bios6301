@@ -37,9 +37,9 @@ the percentage of times the p-value is less than or equal to the alpha
 level.  Use the `set.seed` command so that the professor can reproduce
 your results.
 
-1. Find the power when the sample size is 100 patients. (10 points)
+1.  Find the power when the sample size is 100 patients. (10 points)
 
-1. Find the power when the sample size is 1000 patients. (5 points)
+1.  Find the power when the sample size is 1000 patients. (5 points)
 
 ### Question 2 ###
 
@@ -49,9 +49,9 @@ Obtain a copy of the [football-values lecture](https://github.com/couthcommander
 Save the `2024/proj_wr24.csv` file in your working directory.  Read
 in the data set and remove the first two columns.
 
-1. Show the correlation matrix of this data set. (4 points)
+1.  Show the correlation matrix of this data set. (4 points)
 
-1. Generate a data set with 30 rows that has a similar correlation
+1.  Generate a data set with 30 rows that has a similar correlation
 structure.  Repeat the procedure 1,000 times and return the mean
 correlation matrix. (10 points)
 
@@ -87,7 +87,7 @@ nDist <- function(n = 100) {
 }
 ```
 
-1. What does this do? (3 points)
+1.  What does this do? (3 points)
 
     ```{r}
     round(sapply(nDist(500), mean), 2)
@@ -97,7 +97,7 @@ nDist <- function(n = 100) {
     answer here
     ```
 
-1. What about this? (3 points)
+1.  What about this? (3 points)
 
     ```{r}
     sort(apply(replicate(20, round(sapply(nDist(10000), mean), 2)), 1, sd))
@@ -109,7 +109,7 @@ nDist <- function(n = 100) {
 
     In the output above, a small value would indicate that `N=10,000` would provide a sufficent sample size as to estimate the mean of the distribution. Let's say that a value *less than 0.02* is "close enough".
 
-1. For each distribution, estimate the sample size required to simulate the distribution's mean. (15 points)
+1.  For each distribution, estimate the sample size required to simulate the distribution's mean. (15 points)
 
 Don't worry about being exact. It should already be clear that N < 10,000 for many of the distributions. You don't have to show your work. Put your answer to the right of the vertical bars (`|`) below.
 
