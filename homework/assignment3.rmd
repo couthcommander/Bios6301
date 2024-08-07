@@ -3,13 +3,13 @@ title: 'Bios 6301: Assignment 3'
 output: html_document
 ---
 
-*Due Tuesday, 26 September, 1:00 PM*
+*Due Tuesday, 24 September, 1:00 PM*
 
 50 points total.
 
 Add your name as `author` to the file's metadata section.
 
-Submit a single knitr file (named `homework3.rmd`) by email to marisa.h.blackman@vanderbilt.edu.
+Submit a single knitr file (named `homework3.rmd`) by email to huiding.chen@vanderbilt.edu.
 Place your R code in between the appropriate chunks for each question.
 Check your output by using the `Knit HTML` button in RStudio.
 
@@ -44,7 +44,7 @@ your results.
 **14 points**
 
 Obtain a copy of the [football-values lecture](https://github.com/couthcommander/football-values).
-Save the `2023/proj_wr23.csv` file in your working directory.  Read
+Save the `2024/proj_wr24.csv` file in your working directory.  Read
 in the data set and remove the first two columns.
 
 1. Show the correlation matrix of this data set. (4 points)
