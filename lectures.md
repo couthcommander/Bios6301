@@ -12,7 +12,7 @@ title: Introduction to Statistical Computing
 **Office hours**
 
 * Cole: after class, or by appointment
-* Assistant Marisa Blackman: TBD
+* Assistant Eric Chen: TBD
 
 This schedule is *tentative* and subject to change at any time.
 
