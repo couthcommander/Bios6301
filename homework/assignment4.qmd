@@ -22,9 +22,9 @@ Failure to properly name files or include author name may result in 5 points tak
 
 **10 points**
 
-1. Use GitHub to turn in the first four homework assignments. Make sure the teacher (couthcommander) and TA (extrasane) are collaborators. (5 points)
+1.  Use GitHub to turn in the first four homework assignments. Make sure the teacher (couthcommander) and TA (extrasane) are collaborators. (5 points)
 
-1. Commit each assignment individually.  This means your repository should have at least four commits. (5 points)
+1.  Commit each assignment individually.  This means your repository should have at least four commits. (5 points)
 
 ### Question 2 ###
 
@@ -32,14 +32,14 @@ Failure to properly name files or include author name may result in 5 points tak
 
 Use \LaTeX to create the following expressions.
 
-1. Hint: `\Rightarrow` (4 points)
+1.  Hint: `\Rightarrow` (4 points)
 
     ![equation1](eq1.png)
 
-1. Hint: `\zeta` (3 points)
+1.  Hint: `\zeta` (3 points)
 
     ![equation2](eq2.png)
 
-1. Hint: `\partial` (3 points)
+1.  Hint: `\partial` (3 points)
 
     ![equation3](eq3.png)

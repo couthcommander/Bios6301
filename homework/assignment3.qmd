@@ -92,7 +92,7 @@ nDist <- function(n = 100) {
     ```{r}
     round(sapply(nDist(500), mean), 2)
     ```
-    
+
     ```
     answer here
     ```
