@@ -18,6 +18,11 @@ The advantages of using Markdown over HTML (and LaTeX):
 Presenter Notes
 ===============
 
+You can also embed HTML within Markdown.
+
+A nice HTML tag to remember is for comments, which allows you to hide content.
+
+<!-- no one will ever see this -->
 
 ---
 
@@ -338,6 +343,12 @@ links, they just have a different syntax.
 
 [Biostatistics home page](https://www.vumc.org/biostatistics/ "Visit Biostat!")
 
+To display a raw URL surround it with `<` and `>`.
+
+    <https://www.vumc.org/biostatistics/>
+
+<https://www.vumc.org/biostatistics/>
+
 Presenter Notes
 ===============
 
@@ -523,73 +534,25 @@ It adds multiple syntax features:
 
 ---
 
-## R Markdown
+### Making a Table
 
-[R markdown](http://rmarkdown.rstudio.com/) is similar to MultiMarkdown, as it extends the functionality of Markdown.
+Here's an example markdown table - separate columns with vertical bar "|"
 
-It's an R package (rmarkdown), with integrated support in RStudio.
+    | column A | column B |
+    | -------- | -------- |
+    | A | 1 |
+    | B | 2 |
+    | C | 3 |
 
-![RMDNEW](../slides/images/new_rmd.png)
-
----
-
-R Code Chunks
-===============
-
-## Code Block
-
-    !r
-    ```{r mychunk1}
-    set.seed(44)
-    n <- 10000
-    x <- sort(rnorm(n))
-    (x[n*0.975] - mean(x))/sd(x)
-    ```
-
-## Inline Code Chunk
-
-    The Z-score for the 97.5 percentile point of a
-    standard normal distribution is `r qt(0.975, Inf)`.
-
-![RMDCODE](../slides/images/code_rmd.png)
+| column A | column B |
+| -------- | -------- |
+| A | 1 |
+| B | 2 |
+| C | 3 |
 
 ---
 
-R Table Output
-===============
-
-By default data frames and matrixes are output as they would be in the R terminal (in a monospaced font).
-
-    !r
-    ```{r}
-    x <- data.frame(id=1:18,
-        par=sample(3:5, 18, replace=TRUE, prob=c(4/18,14/18,4/18)),
-        handicap=sample(18)
-    )
-    x
-    ```
-
-![RMDTAB](../slides/images/table_rmd.png)
-
-
----
-
-R Table Output
-===============
-
-However, data can be displayed with additional formatting, such as HTML.
-
-    !r
-    ```{r, results='asis'}
-    knitr::kable(x)
-    ```
-
-![RMDKAB](../slides/images/kable_rmd.png)
-
----
-
-Embedding Equations
-===============
+### Embedding Equations
 
 - `$equation$` for inline equations
 - `$$ equation $$` for display equations
@@ -603,20 +566,14 @@ Arithmetic mean: $\frac{1}{n} \sum_{i=1}^{n} x_{i}$
 
 ---
 
-Metadata
-===============
+# R Markdown
 
-RMD documents can contain a metadata section.
+[R markdown](http://rmarkdown.rstudio.com/) is similar to MultiMarkdown, as it extends the functionality of Markdown. Essentially we get MathJax and MultiMarkdown for free.
 
-    ---
-    title: "Sample Document"
-    output:
-      html_document:
-        toc: true
-    bibliography: bibliography.bib
-    ---
+It's an R package (rmarkdown), with integrated support in RStudio.
 
-The metadata must be placed at the top of the document in *key: value* format (YAML), as shown above.
+R markdown gives us the ability to execute R code in code blocks or inline.
+This will be discussed in the lecture on knitr and quarto.
 
 ---
 

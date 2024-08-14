@@ -93,7 +93,7 @@ What Did *knitr* Give Us?
 - more code chunk options
 - code decoration
 - built-in cacheing
-- it's an R package
+- it's an R package (`install.packages('knitr')`)
 
 ---
 
@@ -113,7 +113,7 @@ Code Chunks
 
 knitr/quarto code chunks use this format
 
-  	```{r}
+    ```{r}
     #| label: my-label
     #| eval: true
     #| dev: 'png'
@@ -212,6 +212,36 @@ Only code chunks evaluated before this will be included in the output.
 
 ---
 
+HTML Table Output
+==============
+
+The default table output generated from R chunks is bland. It might look like this:
+
+      technology year
+    1        TeX 1978
+    2      LaTeX 1984
+    3       HTML 1989
+    4       YAML 2001
+    5     Sweave 2002
+    6   markdown 2004
+    7      knitr 2012
+    8     quarto 2020
+
+The "kable" function in the "knitr" package offers improvement.
+If you like "kable", it's functionality can be extended with the "kableExtra" package.
+
+    ```{r}
+    knitr::kable(aDataFrame)
+    ```
+
+You can create dynamic, sortable tables with the "datatable" function in the "DT" package.
+
+    ```{r}
+    DT::datatable(aDataFrame)
+    ```
+
+---
+
 What's the Front Matter?
 ========================
 
@@ -234,6 +264,7 @@ Here's an example where we can render both HTML and PDF output.
         code-fold: show
         fig-width: 5
         fig-height: 5
+        df-print: kable
       pdf:
         pdf-engine: pdflatex
         keep-tex: true
