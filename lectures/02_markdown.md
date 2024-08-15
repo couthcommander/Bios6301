@@ -282,6 +282,19 @@ in this second paragraph.
 List items can be placed inside of other list 
 items by adding at least one space before a nested list item (more spaces make it look pretty as plain text).
 
+    * Things that don't hurt people
+        + Ponies
+        + Bayes formula
+        + Candy
+    * Things that might hurt people
+        + Swordfish
+        + p-values
+        + Candy from strangers
+
+---
+
+## Nested Lists ##
+
 * Things that don't hurt people
     + Ponies
     + Bayes formula
@@ -316,16 +329,34 @@ that the target package requires to run on your machine.
 
 ## Code Block ##
 
-The other way to include code in Markdown is as a whole code block.  To include 
-a code block, simply indent the code by at least 4 spaces, or one tab. 
+The other way to include code in Markdown is as a whole code block. To include 
+a code block, place three backticks before and after the block.
 
-    if (age < 1) {
-        age_class <- "infant"
-    } else if (age < 13) {
-        age_class <- "child"
-    } else if (age < 18) {
-            age_class <- "adolescent"
-    } else age_class <- "adult"
+````
+```
+if (age < 1) {
+    age_class <- "infant"
+} else if (age < 13) {
+    age_class <- "child"
+} else if (age < 18) {
+    age_class <- "adolescent"
+} else age_class <- "adult"
+```
+````
+
+---
+
+## Code Block ##
+
+```
+if (age < 1) {
+  age_class <- "infant"
+} else if (age < 13) {
+  age_class <- "child"
+} else if (age < 18) {
+  age_class <- "adolescent"
+} else age_class <- "adult"
+```
 
 ---
 
